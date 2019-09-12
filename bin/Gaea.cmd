@@ -1,0 +1,1 @@
+javaw -jar .\GaeaV3-3.0.jar -XX:+UseG1GC

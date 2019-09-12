@@ -1,0 +1,11 @@
+/*
+%memo%
+*/
+function %command%_%id%($postData)
+{
+    $typename = "%type%";
+    $defaultValue = %value%;
+    $defaultValue = getDateTimeValue($typename, $defaultValue);
+    $value = getEmptyValue($postData, $typename, "%id%", $defaultValue);
+    return $value;
+}

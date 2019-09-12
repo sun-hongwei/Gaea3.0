@@ -1,0 +1,1 @@
+java -agentlib:jdwp=transport=dt_socket,address=8000,server=y,suspend=n -jar .\GaeaV3-3.0.jar

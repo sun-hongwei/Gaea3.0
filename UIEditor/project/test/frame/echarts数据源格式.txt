@@ -1,0 +1,8 @@
+
+GlobalDataSources.getRow("category", 0)//取数据集【category】第1行的数据
+GlobalDataSources.getCol("category", "month")//取数据集【category】month列的数据
+GlobalDataSources.getValue("category", 1, "month")//取数据集【category】第2行，month列的单元格值
+
+chartFormat.getPieCharts(dataSourceId, rowIndex) //dataSourceId数据源名称，rowIndex第几行 
+chartFormat.getPieChartsCol(dataSourceId, rowIndex)//dataSourceId数据源名称，rowIndex显示字段
+chartFormat.getPieChartsValue(dataSourceId, rowIndex,field)//dataSourceId数据源名称，rowIndex行号从0开始，field显示字段

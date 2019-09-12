@@ -1,0 +1,12 @@
+{
+	"type": "local",
+	"userData": {},
+	"useLocal": true,
+	"columns": {},
+	"id": "测试主数据集",
+	"params": {
+		"sql": "select * from sampleMaster"
+	},
+	"dataset": [],
+	"url": "{\"server\":\"localhost\",\"dbname\":\"yx_mes\",\"pwd\":\"sa\",\"user\":\"sa\"}"
+}

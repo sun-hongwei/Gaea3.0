@@ -1,0 +1,15 @@
+{
+	"type": "local",
+	"userData": {
+		"field": "name",
+		"sql": "select * from sampleMaster"
+	},
+	"useLocal": true,
+	"columns": {},
+	"id": "测试数据x",
+	"params": {
+		"sql": "select * from sample where id >= ${master[-1][id]}"
+	},
+	"dataset": [],
+	"url": "{\"server\":\"localhost\",\"dbname\":\"yx_mes\",\"pwd\":\"sa\",\"user\":\"sa\"}"
+}

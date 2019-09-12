@@ -1,0 +1,40 @@
+<?php
+
+require_once 'Tools.php';
+require_once 'Model.php';
+
+function getDateTimeValue($typename, $defaultValue)
+{
+    if ($typename == "datetime"){
+        if (!empty($defaultValue))
+            $defaultValue = strtotime($defaultValue);
+        else
+            $defaultValue = date();
+    }
+    return $defaultValue;
+}
+
+function getEmptyValue($postData, $typename, $name, $defaultValue)
+{
+    $value = NULL;
+    if (empty($postData[$name])){
+        if (!empty($defaultValue))
+            $value = $defaultValue;
+    }else{
+        $value = $postData[$name];
+        if ($typename == "datetime"){
+            $value = strtotime($value);
+        }
+    }
+    return $value;
+}
+
+/*
+%memo%
+
+%params%
+*/
+function %command%_do($require, $command, $postData)
+{
+    $model = $require["model"];
+}

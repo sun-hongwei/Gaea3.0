@@ -1,0 +1,1 @@
+{"userData":{},"useLocal":true,"columns":{},"memo":"","id":"测试2","params":{"sql":"select * from sample"},"type":"local","dataset":[],"url":"{\"server\":\"localhost\",\"dbname\":\"yx_mes\",\"pwd\":\"sa\",\"user\":\"sa\"}"}

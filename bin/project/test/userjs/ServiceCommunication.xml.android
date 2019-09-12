@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+
+    <!-- 配置tomcat的访问地址 -->
+    <ServiceCommunication uri="http://10.0.2.2:8080/JSPAdapterServer"/>
+
+    <LocalStorage host="10.0.2.2" port="6379" password="112233"/>
+
+    <!-- 配置Ajax超时时间(单位毫秒)和重试次数 -->
+    <AjaxConfig timeout="360000" retries="10"/>
+</root>
+

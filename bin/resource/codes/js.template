@@ -1,0 +1,6 @@
+/*
+%memo%
+*/
+var %objname% = {
+%functions%
+}

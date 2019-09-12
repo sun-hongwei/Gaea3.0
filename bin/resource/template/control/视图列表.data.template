@@ -1,0 +1,31 @@
+[[
+    {
+        "fontstyle": "1",
+        "textcolor": "0xFF33CCFF",
+        "width": 100,
+        "fontsize": "10",
+        "id": "txt",
+        "text": "文字",
+        "type": "text",
+        "fontname": "微软雅黑",
+        "value": "值1"
+    },
+    {
+        "image": "发布目录中image目录中的图片名称，包含扩展名",
+        "download": "下载的名称，如果此项不为空则单击会下载href设置的内容",
+        "alt": "占位符",
+        "width": 200,
+        "id": "img",
+        "href": "下载的链接,必须是http://或https://开始，如果不填则默认会调用控件的单击事件",
+        "type": "image",
+        "value": "值",
+        "target": "与html的超链接同"
+    },
+    {
+        "width": 300,
+        "report": "报表模板的名称，此模板必须放到项目的report目录中",
+        "id": "report",
+        "type": "report",
+        "title": "报表"
+    }
+]]

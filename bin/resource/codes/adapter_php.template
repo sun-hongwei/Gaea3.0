@@ -1,0 +1,12 @@
+<?php
+
+/*
+%memo%
+
+%params%
+*/
+function %command%_do($require){
+    $userdata = $require["data"]["value"][0]["params"]["data"];
+    $configdata = $require["data"]["value"][0]["params"]["config"];
+    $command = isset ( $_POST ["command"] ) ? $_POST ["command"] : NULL;
+}

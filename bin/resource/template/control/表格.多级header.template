@@ -1,0 +1,44 @@
+{"header": [
+    {"type": 6},
+    {
+        "headerAlign": "center",
+        "type": 1,
+        "title": "序号"
+    },
+    {
+        "field": "id",
+        "width": 100,
+        "readOnly": "true",
+        "type": 3,
+        "align": "center",
+        "title": "编码",
+        "allowsort": "true"
+    },
+    {
+        "subs": [
+            {
+                "field": "count",
+                "width": 100,
+                "type": 3,
+                "align": "center",
+                "title": "数量",
+            },
+            {
+                "field": "unit",
+                "width": 100,
+                "type": 3,
+                "align": "center",
+                "title": "单位",
+            },
+            {
+                "field": "sum",
+                "width": 100,
+                "type": 3,
+                "align": "center",
+                "title": "合计",
+            },
+        ],
+        "type": 5,
+        "title": "多级表头例子"
+    }
+]}

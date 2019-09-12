@@ -1,0 +1,21 @@
+[
+    {
+        "width": 140,
+        "report": "report_template",
+        "id": "report",
+        "type": "report",
+        "title": "报表"
+    },
+    {
+        "width": 300,
+        "id": "img",
+        "title": "图片",
+        "type": "image"
+    },
+    {
+        "width": 200,
+        "id": "txt",
+        "title": "文本",
+        "type": "text"
+    }
+]

@@ -1,0 +1,1 @@
+{"userData":{},"useLocal":false,"columns":{"create_userid":{"name":"create_userid","id":"create_userid"},"name":{"name":"name","id":"name"},"memo":{"name":"memo","id":"memo"},"id":{"name":"id","id":"id"}},"memo":"","id":"文件数据源1","params":{"name":"test"},"type":"file","dataset":[],"url":"/filemodel/service/load.do"}

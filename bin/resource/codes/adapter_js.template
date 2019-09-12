@@ -1,0 +1,8 @@
+/*
+%memo%
+
+%params%
+*/
+function %command%_main(clientdata, serverdata) {
+
+}

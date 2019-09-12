@@ -1,0 +1,64 @@
+{
+	//模板是用来定义当视图列表内嵌套多个报表模板时，如何自动展示数据。
+	//此域为模板定义域，用来描述模板行为，可包含多个模板项目模板的应用项目按定义的顺序，从上到下应用
+    "template": [
+        {
+            "startRow": 0,//起始的行号，不包括列表头，从0开始
+            "datasource": "数据源名称",//当前模板项目应用的数据源
+            "id": "rownormal",//模板项目id，整个模板定义内唯一
+            "cols": [//第一此模板项目与列的映射关系，按照定义的先后顺序从上到下应用
+                {
+                    "template": "listviewitem",//此列使用的报表
+                    "id": "a1",//列id
+                    "type": "report"//映射类型，可以为：image、text、report
+                },
+                {
+                    "template": "listviewitem",
+                    "id": "a2",
+                    "type": "report"
+                },
+                {
+                    "template": "listviewitem",
+                    "id": "a3",
+                    "type": "report"
+                }
+            ]
+        },
+        {
+            "ref": "rownormal",//此项定义用来描述此配置项目会在id为rownormal的模板项目后进行数据填充
+            "datasource": "本地数据源2",
+            "id": "rowsum",
+            "cols": [
+                {
+                    "template": "listviewitem1",
+                    "id": "a1",
+                    "type": "report"
+                },
+                {
+                    "template": "listviewitem1",
+                    "id": "a2",
+                    "type": "report"
+                },
+                {
+                    "template": "listviewitem1",
+                    "id": "a3",
+                    "type": "report"
+                }
+            ]
+        }
+    ],
+    "header": [//列定义，同header定义，如果有header定义可以不需要设置
+        {
+            "id": "a1",
+            "text": "列1"
+        },
+        {
+            "id": "a2",
+            "text": "列2"
+        },
+        {
+            "id": "a3",
+            "text": "列3"
+        }
+    ]
+}

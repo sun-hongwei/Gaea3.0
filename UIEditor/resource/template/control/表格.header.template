@@ -1,0 +1,35 @@
+{"header": [
+    {"type": 6},
+    {
+        "headerAlign": "center",
+        "type": 1,
+        "title": "序号"
+    },
+    {
+        "field": "id",
+        "width": 100,
+        "readOnly": "true",
+        "type": 3,
+        "align": "center",
+        "title": "编码",
+        "allowsort": "true"
+    },
+    {
+        "field": "type",
+        "width": 100,
+        "readOnly": "true",
+        "type": 3,
+        "align": "center",
+        "title": "类型",
+        "allowsort": "true"
+    },
+    {
+        "field": "name",
+        "width": 100,
+        "readOnly": "true",
+        "type": 3,
+        "align": "center",
+        "title": "名称",
+        "allowsort": "true"
+    },
+]}
